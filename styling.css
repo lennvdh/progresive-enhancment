@@ -1,3 +1,27 @@
+body {
+    background-image: url(foto/css.png);
+    background-color: rgb(131, 168, 180);
+    color: red;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.good, .bad {
+    text-transform: uppercase;
+}
+
+.bad {
+    color: black;
+}
+
+.good {
+    color: green;
+}
+
 .story {
     font-family: serif;
     letter-spacing: 2px;
@@ -18,4 +42,43 @@ a:hover {
     text-shadow: 3px 3px 3px green;
     color: red;
 }
+
+.quot {
+    border-left: solid 3px black ;
+    background-color: rgb(170, 170, 170);
+    margin: 40%;
+    font-size: 160%;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+
+.farmer {
+    border-left-color: black;
+}
+
+header>h1{
+    background-color: yellow;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.white {
+    background-color: white;
+}
+
+img {
+    float: right;
+    margin: 20px;
+}
+
+.notification {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 
