@@ -1,0 +1,21 @@
+.story {
+    font-family: serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: rgb(0, 114, 0);
+}
+
+a {
+    font-size: large;
+    font-weight: bolder;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+a:hover {
+    text-shadow: 3px 3px 3px green;
+    color: red;
+}
+
