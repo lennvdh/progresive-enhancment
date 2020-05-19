@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "opensans-light";
+    src: url(OpenSans-light.ttf) format("ttf");
+    font-weight: lighter;
+}
+
 body {
     background-image: url(foto/css.png);
     background-color: rgb(131, 168, 180);
     color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -76,9 +84,8 @@ img {
 }
 
 .notification {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    position: sticky;
+    top: 0;
 }
 
 
